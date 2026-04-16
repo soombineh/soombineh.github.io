@@ -1,1 +1,60 @@
-.
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>숨비찰나</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #F4E5B2;
+      font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    }
+    .container {
+      width: 100%;
+      max-width: 480px;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 40px;
+    }
+    .link-btn {
+      display: block;
+      padding: 16px 24px;
+      margin-bottom: 14px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      transition: opacity 0.2s, transform 0.1s;
+    }
+    .link-btn:hover { opacity: 0.9; }
+    .link-btn:active { transform: scale(0.98); }
+    .naver { background: #03C75A; }
+    .shop { background: #333; }
+    .youtube { background: #FF0000; }
+    .footer {
+      margin-top: 32px;
+      font-size: 12px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>숨비찰나</h1>
+    <a href="https://smartstore.naver.com/sumbine" target="_blank" rel="noopener" class="link-btn naver">네이버 스마트스토어</a>
+    <a href="https://soombi.kr" target="_blank" rel="noopener" class="link-btn shop">공식 쇼핑몰</a>
+    <a href="https://www.youtube.com/@%EC%88%A8%EB%B9%84%EC%B0%B0%EB%82%98" target="_blank" rel="noopener" class="link-btn youtube">유튜브 채널</a>
+    <p class="footer">&copy; 숨비찰나</p>
+  </div>
+</body>
+</html>
